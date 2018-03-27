@@ -1,0 +1,62 @@
+/* Start download_btn css
+======================================*/
+.download_btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: $pop;
+    background: $bcolor;
+    padding: 10px 42px;
+    border-radius: 3px;
+    position: relative;
+    transform: translateZ(0);
+    border: 0px;
+    z-index: 1;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    &:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: scaleX(0);
+        border-radius: 3px;
+        background: $baseColor;
+        transform-origin: 50%;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
+    &:hover{
+        color: #fff;
+        &:before{
+            transform: scaleX(1);
+        }
+    }
+}
+
+
+
+.red_more_btn{
+    font:700 15px/38px $pop;
+    border: 2px solid $bcolor;
+    text-align: center;
+    padding: 0px 34px;
+    display: inline-block;
+    color: $bcolor;
+    border-radius: 45px;
+    transition: all 0.4s ease-out;
+    &:hover{
+        background: $bcolor;
+        color: #fff;
+    }
+}
+
+.submit_btn{
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-top: 10px;
+}

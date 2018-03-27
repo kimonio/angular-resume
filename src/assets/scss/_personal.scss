@@ -1,0 +1,167 @@
+/* Start personal_porfolio
+====================================================*/
+.main-container{
+    height:100vh;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    .align-self-center{
+        align-self: center!important;
+    }
+}
+.wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main_box{
+    padding-top: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-bottom: 60px;
+}
+.p_home{
+    height: calc(100vh - 360px);
+    border-radius: 5px;
+    position: relative;
+    z-index: 22;
+    .profile_img{
+        padding-left: 0px;
+        overflow: hidden;
+        @media (min-width:1550px){
+            height: calc(100vh - 360px);
+        }
+    }
+}
+.por_details{
+    padding: 0px 60px;
+    overflow: hidden;
+}
+
+.content_area{
+    padding:0px 50px 0px 120px;
+    display: flex;
+}
+.personal_content{
+    .p_t{
+        font-size: 50px;
+        letter-spacing: 0px;
+        color: #242424;
+        font-weight: 700;
+    }
+    h3{
+        font: 400 30px $play;
+        color: $bcolor;
+        font-style: italic;
+        position: relative;
+        padding-top: 8px;;
+        padding-bottom: 28px;
+        margin-bottom: 35px;
+        &:before{
+            content: "";
+            width: 85px;
+            height: 3px;
+            background: #d0d0d0;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+    p{
+        font: 400 16px/26px $open;
+        color: #797979;
+    }
+    .personal-info-list{
+        padding-top: 16px;
+        padding-bottom: 40px;
+        li{
+            font: 400 16px/30px $pop;
+            .title{
+                display: inline-block;
+                min-width: 145px;
+            }
+            a{
+                color: $pfont;
+                &:hover{
+                    color: $bcolor;
+                }
+            }
+            .value{
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+/*home two css 
+===================================*/
+.personal_content_two{
+    .p_t{
+        font-size: 40px;
+    }
+    p{
+        font-family: $open;
+    }
+}
+.profile_img_two{
+    text-align: center;
+    padding-top: 12px;
+    .personal{
+        width: 292px;
+        height: 292px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: rgb(207, 207, 207);
+        box-shadow: 0px 2px 27px 0px rgba(40, 40, 40, 0.15);
+        img{
+            max-width: 100%;
+        }
+    }
+    h2{
+        font-size: 50px;
+        font-family: $pop;
+        color: #242424;
+        font-weight: 700;
+        padding: 40px 0px 40px;
+    }
+    .sign{
+        display: inline-block;
+    }
+}
+
+
+.p_home .profile_img_four{
+    text-align: center;
+    .personal{
+        position: relative;
+        z-index: 1;
+        padding-left: 18px;
+        padding-top: 18px; 
+        &:before{
+            content: "";
+            width: 95%;
+            height: 95%;
+            background: #38abd6;
+            top: 0;
+            left: 0;
+            border-radius: 5px;
+            position: absolute;
+            z-index: -1;
+        }
+        
+        img{
+            border-radius: 5px;
+            @media(max-width:1700px){
+                max-width: 100%;
+            }
+        }
+    }
+    .sign{
+        padding-top: 55px;
+        display: inline-block;
+    }
+}

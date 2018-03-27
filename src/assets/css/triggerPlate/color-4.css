@@ -1,0 +1,85 @@
+/*home page */
+.navbar .navbar-nav .active > .nav-link {
+   color: #14e06e;
+}
+.navbar .navbar-nav .nav-item:hover a,.social-icon li a:hover{
+    color: #14e06e;
+}
+.personal_content h3{
+    color: #14e06e;
+}
+.download_btn{
+    background: #14e06e;
+}
+.download_btn::before,.background .b_left,.profile_img_four .personal:before,.background_two{
+    background: #09d462;
+}
+.navbar_two .navbar-nav .nav-item.active .nav-link, .navbar_two .navbar-nav .nav-item:hover .nav-link {
+    color: #000;
+}
+/*resume page color css*/
+.main_title h4,.edu_timeline li .timeline_content h4{
+    color: #14e06e;
+}
+.edu_timeline li::before{
+    border-color: #14e06e;
+}
+.edu_timeline li::after,.skill_content .skill_info .progress-two .progress-bar{
+    background: #14e06e;
+}
+
+/*service page color css*/
+.testimonial_slider .testimonial_item .media-body h4,.service_item .media-body h3:hover{
+    color: #14e06e;
+}
+.accordian_tab .tab_menu .nav-item .nav-link.active, .accordian_tab .tab_menu .nav-item .nav-link:hover{
+    background: #14e06e;
+}
+.service_item i:before{
+    color: #14e06e;
+}
+
+/*portfolio color css*/
+.portfolio_fillter li.active a,.portfolio_fillter li a:hover{
+    border-color: #14e06e;
+    color: #14e06e;
+}
+.portfolio_gallery .portfolio_item .image_b:before,.portfolio_gallery .portfolio_item .image_b:after{
+    background: #14e06e;
+}
+
+/*blog page color css*/
+.blog_post .blog_content h5,.blog_post:hover h2,.blog_post .blog_content .post_meta li a:hover {
+    border-color: #14e06e;
+    color: #14e06e;
+}
+.red_more_btn,.next_pages li a{
+    border-color: #14e06e;
+    color: #14e06e;
+}
+
+.red_more_btn:hover,.next_pages li a:hover{
+    color: #fff;
+   background: #14e06e;
+}
+.blog_post .post_img::before,.blog_post .post_img::after{
+    background: #14e06e;
+}
+@media (max-width:991px){
+    .navbar_two .navbar-nav .nav-item .nav-link:hover,.navbar_two .navbar-nav .nav-item.active .nav-link{
+        color: #14e06e;
+    }
+}
+
+.date {
+    color: #14e06e;
+    display: block;
+}
+
+.s_comment_list_inner .media .media-body .date_rep a + a {
+    color: #14e06e;
+    display: block;
+}
+.post_meta li a:hover {
+    color: #14e06e;
+}

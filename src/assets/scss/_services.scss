@@ -1,0 +1,168 @@
+/* Start services_area css
+=====================================*/
+.services_area{
+    border-bottom: 1px solid #dfdfdf;
+}
+.service_item{
+    padding: 20px 0px 40px;
+    i{
+        margin-right: 25px;
+        &:before{
+            font-size: 55px;
+            line-height: 65px;
+            color: $bcolor;
+            margin-left: 0px;
+        }
+    }
+    .media-body{
+        h3{
+            font: 600 18px/26px $pop;
+            color: #242424;
+            padding-bottom: 10px;
+            &:hover{
+                color: $baseColor;
+            }
+        }
+        p{
+            font: 400 16px/26px $open;
+            color: $pfont;
+        }
+    }
+}
+
+
+/* Start testimonial_area css
+========================================*/
+.testimonial_area{
+    padding-top: 90px;
+}
+.testimonial_slider{
+    .testimonial_item{
+        background: #f7f7f7;
+        border: 1px solid #efefef;
+        border-radius: 5px;
+        padding: 30px 30px 45px 30px;
+        .client_img{
+            position: relative;
+            margin-right: 30px;
+            &:after{
+                content: "";
+                position: absolute;
+                bottom: -20px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 24px;
+                height: 2px;
+                background: #dddddd;
+            }
+        }
+        .media-body{
+            a{
+                font: 600 22px/28px $pop;
+                color: #242424;
+            }
+            h4{
+                font: 400 18px/28px $lato;
+                color: #36b3e1;
+                font-style: italic;
+                padding: 3px 0px 10px;
+            }
+            p{
+                font: 400 17px/26px $lato;
+                color: $pfont;
+            }
+        }
+    }
+}
+
+
+
+/* start clients_logo_area css 
+======================================*/
+.clients_logo_area{
+    padding: 90px 0px 70px;
+    border-bottom: 1px solid #dfdfdf;
+    .main_title{
+        margin-bottom: 20px;
+    }
+}
+.clients_logo_slider{
+    .item{
+        a{
+            display: block;
+            img{
+                max-width: 100%;
+                width: auto;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+
+/* Start expert_area css
+=========================================*/
+.expert_area{
+    padding: 90px 0px 40px;
+}
+.accordian_tab{
+    .tab_menu{
+        border: 0px;
+        padding-top: 10px;
+        .nav-item{
+            margin: 0px 0px 0px 20px;
+            .nav-link{
+                font: 600 16px/26px $pop;
+                color: #242424;
+                border: 1px solid #e5e5e5;
+                background: #f2f2f2;
+                padding: 11px 30px;
+                border-bottom: 0px;
+                transition: all 0.2s linear;
+                &.active,&:hover{
+                    background: #25a8dc;
+                    color: #fff;
+                }
+            }
+            &:last-item{
+                margin-left: 0px;
+            }
+        }
+    }
+    .tab-content{
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        padding: 60px 20px 30px 40px;
+        .tab-pane{
+            .media{
+                .media-body{
+                    padding-right: 20px;
+                    h4{
+                        font: 300 22px/36px $open;
+                        color: #242424;
+                        padding-top: 5px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 34px;
+                        font-family: $open;
+                        font-weight: 400;
+                        color: $pfont;
+                        & + p{
+                            padding-top: 35px;
+                        }
+                    }
+                }
+                .ex_img{
+                    border-radius: 5px;
+                    overflow: hidden;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -21,7 +21,20 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/jquery-3.2.1.min.js",
+        "assets/js/popper.js",
+        "assets/js/bootstrap.min.js",
+        "assets/vendors/counterup/jquery.waypoints.min.js",
+        "assets/vendors/counterup/jquery.counterup.min.js",
+        "assets/vendors/counterup/apear.js",
+        "assets/vendors/counterup/countto.js",
+        "assets/vendors/lightbox/simpleLightbox.min.js",
+        "assets/vendors/owl-carousel/owl.carousel.min.js",
+        "assets/js/jquery.nicescroll.min.js",
+        "assets/vendors/particles/particles.js",
+        "assets/js/gmaps.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

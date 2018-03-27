@@ -1,0 +1,36 @@
+/* Start footer_area css
+======================================*/
+.footer_area{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    z-index: 9;
+    padding: 39px 0px 55px;
+}
+.footer-copyright{
+    font: 500 16px/26px $pop;
+}
+
+.footer_area_two{
+    .c_left_col{
+        float: left;
+    }
+    .c_right_col{
+        .social-icon{
+            margin-left: 0px;
+            border: 0px;
+        }
+    }
+    .icon_white{
+        li{
+            a{
+                color: #fff;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+}

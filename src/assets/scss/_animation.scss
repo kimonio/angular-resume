@@ -1,0 +1,12 @@
+/* animation_bottom css
+==============================*/
+
+.animation_bottom{
+    transform: translateY(50px);
+    transition: all 1s cubic-bezier(0.15, 0.44, 0.1, 0.96);
+    opacity: 0;
+    &.edgtf-appeared{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

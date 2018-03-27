@@ -1,0 +1,251 @@
+/*home page */
+.navbar .navbar-nav .active > .nav-link{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar .navbar-nav .nav-item:hover a {
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-icon li a:hover{
+    color: rgba(235,51,73,1);
+}
+.personal_content h3{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download_btn{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+.download_btn::before,.background .b_left,.profile_img_four .personal:before,.background_two{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(right top,left top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+.navbar_two .navbar-nav .nav-item.active .nav-link, .navbar_two .navbar-nav .nav-item:hover .nav-link {
+    color: #000;
+    -moz-text-fill-color: #000;
+     -webkit-text-fill-color: #000;
+}
+
+/*resume page color css*/
+.main_title h4,.edu_timeline li .timeline_content h4{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.edu_timeline li::before{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    border-color: transparent;
+}
+.edu_timeline li::after,.skill_content .skill_info .progress-two .progress-bar{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+
+/*service page color css*/
+.testimonial_slider .testimonial_item .media-body h4,.service_item .media-body h3:hover{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.accordian_tab .tab_menu .nav-item .nav-link.active, .accordian_tab .tab_menu .nav-item .nav-link:hover{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+
+.service_item i:before{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*portfolio color css*/
+.portfolio_fillter li.active a,.portfolio_fillter li a:hover{
+    border-color: rgba(235,51,73,1);
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio_gallery .portfolio_item .image_b:before,.portfolio_gallery .portfolio_item .image_b:after{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+
+/*blog page color css*/
+.blog_post .blog_content h5,.blog_post:hover h2,.blog_post .blog_content .post_meta li a:hover {
+    border-color: rgba(235,51,73,1);
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.red_more_btn,.next_pages li a{
+    border-color: rgba(235,51,73,1);
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.red_more_btn:hover,.next_pages li a:hover{
+    color: #fff;
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-text-fill-color: #fff;
+}
+.blog_post .post_img::before,.blog_post .post_img::after{
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+}
+
+@media (max-width:991px){
+    .navbar_two .navbar-nav .nav-item .nav-link:hover,.navbar_two .navbar-nav .nav-item.active .nav-link{
+        background: rgba(235,51,73,1);
+        background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+        background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+        background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+        background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+        background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+        background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.date {
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+.s_comment_list_inner .media .media-body .date_rep a + a {
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+.post_meta li a:hover {
+    background: rgba(235,51,73,1);
+    background: -moz-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(235,51,73,1)),color-stop(100%,rgba(244,92,67,1)));
+    background: -webkit-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -o-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: -ms-linear-gradient(left,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    background: linear-gradient(to right,rgba(235,51,73,1) 0%,rgba(244,92,67,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.post_meta li a:before {
+    color: #b8b8b8;
+    -webkit-text-fill-color: #b8b8b8;
+}

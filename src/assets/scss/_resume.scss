@@ -1,0 +1,180 @@
+/* Start resume_details css
+====================================*/
+.resume_details{ 
+}
+.sec_pad_l{
+    padding-left: 26px;
+}
+.sec_pad_r{
+    padding-right: 26px;
+}
+.ed_title{
+    font: 600 24px $pop;
+    color: #242424;
+    margin-bottom: 37px;
+}
+.education_info{
+    .ed_title{
+        margin-bottom: 30px;
+    }
+}
+.edu_timeline{
+    position: relative;
+    &:before{
+        content: "";
+        width: 1px;
+        height: 100%;
+        background: #dfdfdf;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    li{
+        margin-left: 30px;
+        background: #fafafa;
+        padding: 28px 50px;
+        border: 1px solid #f1f1f1;
+        border-radius: 5px;
+        position: relative;
+        z-index: 0;
+        &:before{
+            content: "";
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid $bcolor;
+            background: #fff;
+            left: -38px;
+            top: 50px;
+            z-index: 0;
+        }
+        &:after{
+            content: "";
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            left: -30px;
+            top: 57px;
+            background: $bcolor;
+            z-index: -1;
+        }
+        .timeline_content{
+            h3{
+                font:600 18px/26px $pop;
+                color: #242424;
+            }
+            h4{
+                font-size: 14px;
+                line-height: 22px;
+                color: $bcolor;
+                padding-bottom: 8px;
+            }
+            p{
+                font: 400 16px/26px $open;
+                color: $pfont;
+            }
+        }
+        & + li{
+            margin-top: 20px;
+        }
+    }
+}
+
+
+/* skills 
+==================*/
+.skills{
+    padding-top: 96px;
+}
+.skill_content{
+    .skill_info{
+        h5{
+            font-size: 16px;
+            color: #242424;
+            padding-bottom: 10px;
+        }
+        .progress-two{
+            height: 8px;
+            background: #d6d6d6;
+            position: relative;
+            overflow: visible;
+            margin-bottom: 36px;
+            .progress-bar{
+                float: left;
+                height: 8px;
+                background: $bcolor;
+                position: relative;
+                .progress-num{
+                    position: absolute;
+                    top: -30px;
+                    right: -35px;
+                    background: #3b3b3b;
+                    padding: 5px;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    line-height: 20px;
+                    padding: 0px 9px;
+                    font-weight: 400;
+                    font-family: $open;
+                    color: #fff;
+                    &:before{
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 5px 0 5px 5px;
+                        border-color: transparent transparent transparent #3b3b3b;;
+                        position: absolute;
+                        bottom: -5px;
+                        left: 0;
+                    }
+                }
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+
+
+/*interst css
+=======================================*/
+.interest{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.custom_row{
+    margin-left: -10px;
+    margin-right: -10px; 
+}
+.custom_col_p{
+    padding:0px 10px;
+}
+.interest_info{
+    .interest_item{
+        width: calc(100% / 5);
+        .interest_content{
+            text-align: center;
+            border: 1px solid #dfdfdf;
+            border-radius: 5px;
+            padding: 24px 0px;
+            i{
+                &:before{
+                    font-size: 60px;
+                    margin-left: 0px;
+                    color: #000;
+                    line-height: 70px;
+                }
+            }
+            h4{
+                font-size: 18px;
+                font-weight: 600;
+                color: #242424;
+                padding-top: 10px;
+            }
+        }
+    }
+}
