@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Router, NavigationEnd} from '@angular/router';
 
 // Providers.
 import {SettingsService} from '../settings/settings.service';
+import {IContent, IHome} from '../settings/settings.interface';
 
 @Component({
   selector: 'app-home',
@@ -11,17 +11,15 @@ import {SettingsService} from '../settings/settings.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private settingsService: SettingsService,
-              private router: Router) {
+  content: IContent;
+  homeContent: IHome;
 
-    router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd && event.url === "/home") {
-
-      }
-    });
+  constructor(private settingsService: SettingsService) {
+    this.settingsService.getContent().subscribe((content: IContent) => this.homeContent = content.home);
   }
 
   ngOnInit() {
     this.settingsService.initScript();
+
   }
 }

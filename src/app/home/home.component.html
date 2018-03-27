@@ -9,23 +9,28 @@
               <div class="left_site p0">
                 <div class="profile_img profile_img_four int-box">
                   <div class="personal">
-                    <img class="" src="../assets/image/avatar.png" alt="">
+                    <img class="" src="{{ homeContent.profile_img_url }}" alt="">
                   </div>
                 </div>
               </div>
               <div class="right_site content_area">
                 <div class="personal_content personal_content_two align-self-center">
-                  <h2 class="p_t">Antonio Cunanan</h2>
-                  <h3>Full Stack Software Engineer</h3>
+                  <h2 class="p_t">{{ homeContent.name }}</h2>
+                  <h3>{{ homeContent.title }}</h3>
                   <ul class="personal-info-list list_style">
                     <li>
                       <span class="title">Location</span>
-                      <span class="value">Richardson, Texas</span>
+                      <span class="value">{{ homeContent.location }}</span>
                     </li>
                     <li>
                       <span class="title">Email</span>
                       <span class="value"><a href="mailto:antonio.cunanan@gmail.com"
-                                             target="_self">antonio.cunanan@gmail.com</a></span>
+                                             target="_self">{{ homeContent.email }}</a></span>
+                    </li>
+                    <li>
+                      <span class="title">Github</span>
+                      <span class="value"><a href="{{ homeContent.github }}"
+                                             target="_self">@kimonio</a></span>
                     </li>
                   </ul>
                   <a href="#" class="btn download_btn">Download CV</a>

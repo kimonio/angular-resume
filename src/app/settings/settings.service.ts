@@ -1,13 +1,29 @@
 import {Injectable} from '@angular/core';
+import {Observable} from 'rxjs/Observable';
+import {HttpClient} from '@angular/common/http';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/do';
+import 'rxjs/add/operator/catch';
 
+// Third party.
 declare const $;
 declare const GMaps;
 declare const particlesJS;
 
+// Interface.
+import {IContent} from './settings.interface';
+
 @Injectable()
 export class SettingsService {
 
-  constructor() {
+  private contentURL = '../assets/data/content.json';
+
+  constructor(private http: HttpClient) {
+  }
+
+  getContent(): Observable<IContent> {
+      return this.http.get<IContent>(this.contentURL)
+        .do((data: IContent) => console.log(JSON.stringify(data)));
   }
 
   initScript() {

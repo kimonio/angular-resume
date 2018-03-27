@@ -1,0 +1,79 @@
+{
+  "home": {
+    "name": "Antonio Cunanan",
+    "title": "Full Stack Software Engineer",
+    "bio": "",
+    "email": "antonio.cunanan@gmail.com",
+    "location": "Richardson, Texas",
+    "facebook": "https://www.facebook.com/antonio.cunanan",
+    "twitter": "https://twitter.com/kimonio",
+    "github": "https://github.com/kimonio",
+    "instagram": "https://www.instagram.com/kimonio",
+    "cv_url": "",
+    "profile_img_url": "../assets/image/avatar.png"
+  },
+  "resume": {
+    "achievements": [
+      "Passed CCIE Routing and Switching (#16621) lab exam July 2006.",
+      "Presented CCIE Routing and Switching workshop at the Cisco Live 2007 Networking Conference and received outstanding customer reviews.",
+      "Published \"Journey to becoming the CCIE\" on Cisco Learning Network website:<br><a href=\"https://learningnetwork.cisco.com/docs/DOC-6033\">https://learningnetwork.cisco.com/docs/DOC-6033"
+    ],
+    "experiences": [
+      {
+        "title": "Customer Support Engineer, Team Lead",
+        "company": "Cisco Systems",
+        "dates": "April 2005 - January 2011 • 6 yrs",
+        "duties": [
+          "Responsible for resolving technical issues for customers globally.",
+          "Point of escalation for technical issues for engineers locally as well as worldwide.",
+          "Provide training and mentoring to fellow engineers on varied number of technologies.",
+          "Resolved over 2000 customer issues with an average feedback score rating of 4.69 / 5."
+        ]
+      },
+      {
+        "title": "Business Technical Analyst, Programmer",
+        "company": "IMS Health",
+        "dates": "February 2002 - April 2005 • 3 yrs",
+        "duties": [
+          "Conceived and developed the 'Report Manager' application using VB .NET, SQL Server 2000 and SPSS which improved the current electronic report production process of IMS Health by 500%. A monthly process that use to take 2 weeks was reduced to 2 days.",
+          "Conceived and developed the 'Quality Report Tool' application using PHP, MySQL which automated the process of QA reports for errors.",
+          "Received ‘Award of Excellence’ in recognition of outstanding work ethics and performance."
+        ]
+      },
+      {
+        "title": "IT & Production Team Leader, Acting",
+        "company": "IMS Health",
+        "dates": "February 2002 - April 2005 • 3 yrs",
+        "duties": [
+          "Serve as an IT and Production Team Leader while the organization was restructuring.",
+          "Ensuring strategic IT and production needs of the organization were met during this time.",
+          "Serve as the escalation point for complex problems and ensure that high quality and effective solutions are delivered on time.",
+          "Lead, train and mentor 5 IT and production staff",
+          "Extended systems support to cover India, Japan and Korea.",
+          "Successfully managed the development of our first multi-lingual product which allowed the organization to deliver the product from conception within 3 months.  This helped the organization to double their revenue from 3 to 6 millions dollars a year.",
+          "Successfully project managed the installation and configuration of VPN access for all employees."
+        ]
+      },
+      {
+        "title": "Systems Engineer",
+        "company": "Sun Microsystems",
+        "dates": "January 2002 - March 2002 • 3 mos",
+        "duties": [
+          "Responsible for managing network equipment used to secure sales.",
+          "Maintained network hardware and loan pool software.",
+          "Ensured the construction of the IForce centre was completed on time and within required specifications."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Honeywell Ltd.",
+        "dates": "July 1999 - March 2000 • 6 mos",
+        "duties": [
+          "Developed, installed and debugged custom applications.",
+          "Creation of user and test documentation for applications developed and modified.",
+          "Developed the website for our group on the local intranet."
+        ]
+      }
+    ]
+  }
+}

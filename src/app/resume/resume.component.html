@@ -1,3 +1,129 @@
-<p>
-  resume works!
-</p>
+<!--Start personal_porfolio-->
+<div class="main-container">
+  <section class="personal_porfolio wrapper">
+    <div class="container custom_container align-self-center fadeInOnLoad">
+      <div class="main_box animation_bottom">
+        <div id="boxscroll" class="p_home">
+          <div class="por_details section_pad">
+            <div class="resume_details">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="main_title">
+                    <h2>Resume</h2>
+                  </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="col-md-12 achievements_info sec_pad_l sec_pad_r">
+                  <h3 class="ed_title">Achievements</h3>
+                  <ul class="achievements_timeline list_style">
+                    <li *ngFor="let achievement of resumeContent.achievements">
+                      <div class="timeline_content">
+                        <p [innerHTML]="achievement"></p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="col-md-12 experience_info sec_pad_l sec_pad_r">
+                  <h3 class="ed_title">Work Experience</h3>
+                  <ul class="edu_timeline list_style">
+                    <li *ngFor="let experience of resumeContent.experiences">
+                      <span></span>
+                      <div class="timeline_content">
+                        <h3>{{ experience.title }}</h3>
+                        <h4>{{ experience.company }}</h4>
+                        <div class="experience_year">{{ experience.dates }}</div>
+                        <p class="bullet" *ngFor="let duty of experience.duties">• {{ duty }}</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Education -->
+                <div class="col-md-12 education_info sec_pad_l sec_pad_r">
+                  <h3 class="ed_title">Education</h3>
+                  <ul class="edu_timeline list_style">
+                    <li>
+                      <span></span>
+                      <div class="timeline_content">
+                        <h3>Bachelor in Engineering, Computer Systems </h3>
+                        <h4>University of Technology, Sydney</h4>
+                        <div class="experience_year">March 1998 - January 2003 • 5 yrs</div>
+                        <p class="bullet">• Graduated with First Class Honors</p>
+                        <p class="bullet">• Dean's List Member 2000, 2001, 2002</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills sec_pad_l sec_pad_r">
+              <h3 class="ed_title">Certifications & Skills</h3>
+              <div class="row">
+                <div class="col-md-6 sec_pad_r">
+                  <div class="skill_content">
+                    <div class="skill_info">
+                      <h5>Web Designing</h5>
+                      <div class="progress-two" data-value="62">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="62"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">62</span>%</div>
+                        </div>
+                      </div>
+                      <h5>Print Designing</h5>
+                      <div class="progress-two" data-value="90">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">90</span>%</div>
+                        </div>
+                      </div>
+                      <h5>Logo Desiging</h5>
+                      <div class="progress-two" data-value="75">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">75</span>%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 sec_pad_l">
+                  <div class="skill_content">
+                    <div class="skill_info">
+                      <h5>Web Designing</h5>
+                      <div class="progress-two" data-value="62">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="62"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">62</span>%</div>
+                        </div>
+                      </div>
+                      <h5>CS 3/Bootstrap Grid</h5>
+                      <div class="progress-two" data-value="90">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">90</span>%</div>
+                        </div>
+                      </div>
+                      <h5>JQuerry</h5>
+                      <div class="progress-two" data-value="75">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                             aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-num"><span class="number">75</span>%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

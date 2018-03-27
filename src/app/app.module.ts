@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
+import {HttpClientModule} from '@angular/common/http';
 
 // Components.
 import {AppComponent} from './app.component';
@@ -11,10 +12,10 @@ import {SettingsService} from './settings/settings.service';
 
 // Routing configuration.
 import {routerConfig} from './app.routing';
-import { ResumeComponent } from './resume/resume.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { BlogComponent } from './blog/blog.component';
-import { ContactComponent } from './contact/contact.component';
+import {ResumeComponent} from './resume/resume.component';
+import {PortfolioComponent} from './portfolio/portfolio.component';
+import {BlogComponent} from './blog/blog.component';
+import {ContactComponent} from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(routerConfig),
   ],
   providers: [

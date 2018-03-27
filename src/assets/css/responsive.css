@@ -15,7 +15,7 @@
         margin-bottom: 22px;
     }
     .p_home{
-        height: calc(100vh - 260px);
+        height: calc(100vh - 320px);
     }
     .navbar .navbar-brand {
         padding-top: 15px;
@@ -111,7 +111,7 @@
         height: 100%;
     }
     .header{
-        background: url("../image/left-bg-texture.jpg") no-repeat scroll center 0 / cover;  
+        background: url("../image/left-bg-texture.jpg") no-repeat scroll center 0 / cover;
     }
     .background{
         display: none;

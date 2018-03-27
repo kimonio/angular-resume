@@ -134,12 +134,12 @@ button:focus {
 }
 
 .main_title h4 {
-  font: 400 20px/20px "Playfair Display", serif;
+  padding-top: 20px;
   color: #3abced;
-  font-style: italic;
 }
 
 .main_title h2 {
+  padding-top: 20px;
   font: 700 40px "Poppins", sans-serif;
   color: #242424;
 }
@@ -840,7 +840,7 @@ div.ext-box { display: table; width:100%;}
 div.int-box { display: table-cell; vertical-align: middle; }
 
 .main_box {
-  padding-top: 60px;
+  padding-top: px;
   background-color: white;
   -webkit-box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.15);
@@ -1029,11 +1029,19 @@ div.int-box { display: table-cell; vertical-align: middle; }
 .ed_title {
   font: 600 24px "Poppins", sans-serif;
   color: #242424;
-  margin-bottom: 37px;
+  margin-bottom: 15px;
+}
+
+.achievements_info .ed_title {
+  margin-top: 0px;
+}
+
+.experience_info .ed_title {
+  margin-top: 50px;
 }
 
 .education_info .ed_title {
-  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .edu_timeline {
@@ -1087,13 +1095,13 @@ div.int-box { display: table-cell; vertical-align: middle; }
 .edu_timeline li .timeline_content h3 {
   font: 600 18px/26px "Poppins", sans-serif;
   color: #242424;
+  margin-bottom: 3px;
 }
 
 .edu_timeline li .timeline_content h4 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   color: #3abced;
-  padding-bottom: 8px;
 }
 
 .edu_timeline li .timeline_content p {
@@ -1108,7 +1116,7 @@ div.int-box { display: table-cell; vertical-align: middle; }
 /* skills
 ==================*/
 .skills {
-  padding-top: 96px;
+  padding-top: 50px;
 }
 
 .skill_content .skill_info h5 {
