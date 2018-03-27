@@ -23,7 +23,7 @@
     padding-bottom: 60px;
 }
 .p_home{
-    height: calc(100vh - 360px);
+    // height: calc(100vh - 360px);
     border-radius: 5px;
     position: relative;
     z-index: 22;
@@ -31,13 +31,13 @@
         padding-left: 0px;
         overflow: hidden;
         @media (min-width:1550px){
-            height: calc(100vh - 360px);
+            // height: calc(100vh - 360px);
         }
     }
 }
 .por_details{
     padding: 0px 60px;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .content_area{
@@ -96,7 +96,7 @@
 }
 
 
-/*home two css 
+/*home two css
 ===================================*/
 .personal_content_two{
     .p_t{
@@ -140,7 +140,7 @@
         position: relative;
         z-index: 1;
         padding-left: 18px;
-        padding-top: 18px; 
+        padding-top: 18px;
         &:before{
             content: "";
             width: 95%;
@@ -152,7 +152,7 @@
             position: absolute;
             z-index: -1;
         }
-        
+
         img{
             border-radius: 5px;
             @media(max-width:1700px){

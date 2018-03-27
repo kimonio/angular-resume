@@ -26,14 +26,14 @@ Table of Content:
 06/ banner
 07/ feature
 08/ about
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ skill  
-14/ testimonial  
-15/ services  
-16/ contact 
+09/ project
+10/ price
+11/ team
+12/ blog
+13/ skill
+14/ testimonial
+15/ services
+16/ contact
 17/ map
 18/ error
 19/ portfolio
@@ -835,6 +835,9 @@ a.settingBtn i {
   display: -ms-flexbox;
   display: flex;
 }
+
+div.ext-box { display: table; width:100%;}
+div.int-box { display: table-cell; vertical-align: middle; }
 
 .main_box {
   padding-top: 60px;
