@@ -14,13 +14,40 @@
   },
   "resume": {
     "achievements": [
-      "Passed CCIE Routing and Switching (#16621) lab exam July 2006.",
-      "Presented CCIE Routing and Switching workshop at the Cisco Live 2007 Networking Conference and received outstanding customer reviews.",
-      "Published \"Journey to becoming the CCIE\" on Cisco Learning Network website:<br><a href=\"https://learningnetwork.cisco.com/docs/DOC-6033\">https://learningnetwork.cisco.com/docs/DOC-6033"
+      "• Conceived, designed and developed an innovative approach to traditional loyalty systems for retail businesses through a combination of white label gamified mobile app and full analytics platform. <br><a href=\"https://funrewards.com\"> http://funrewards.com</a>",
+      "• Conceived, designed and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions.",
+      "• Created a mobile app that was featured in New York Times and generated 3.1 million downloads. <a href=\"https://www.dropbox.com/s/nf1kuvkjdpbwknq/The_New_York_Times%282012-10-25%29_page38.pdf?dl=0\">Link to Article.</a>",
+      "• Passed CCIE Routing and Switching (#16621) lab exam July 2006.",
+      "• Presented CCIE Routing and Switching workshop at the Cisco Live 2007 Networking Conference and received outstanding customer reviews.",
+      "• Published \"Journey to becoming the CCIE\" on Cisco Learning Network website. <a href=\"https://learningnetwork.cisco.com/docs/DOC-6033\">Link to Article</a>"
     ],
     "experiences": [
       {
-        "title": "Customer Support Engineer, Team Lead",
+        "title": "Founder, Software Engineer",
+        "company": "Fun Rewards",
+        "url": "http://funrewards.com",
+        "dates": "December 2015 - Present • 2.5 yrs",
+        "duties": [
+          "Conceived and developed an innovative approach to traditional loyalty systems for retail businesses through a combination of white labeled gamified mobile app and full analytics platform.",
+          "Designed and developed the mobile application in Javascript using Ionic & Angulargit add frameworks.",
+          "Designed and developed the CMS and analytics platform in Javascript using Firebase, NodeJS and MongoDB on the backend.",
+          "Pivoted and changed the product multiple times based on customer feedback as well as feedback from business owners interacting with the software solution."
+        ]
+      },
+      {
+        "title": "Founder, Software Engineer",
+        "company": "Objectified Apps",
+        "dates": "February 2011 - November 2015 • 5 yrs",
+        "duties": [
+          "Conceived and developed mobile applications for both iOS and Android devices in Objective-C and Java.",
+          "Conceived and developed \"Ad mediation server\" in PHP and MySQL which controlled the delivery of ads across all our apps to help maximize revenue.",
+          "Developed a push notification script in PHP that allowed millions of push notifications to be sent across all our apps in an efficient and cost effective way.",
+          "Created a mobile app that was featured in New York Times and generated 3.1 million downloads.",
+          "Conceived and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions."
+        ]
+      },
+      {
+        "title": "Customer Support Engineer, Team Lead, Tech Lead",
         "company": "Cisco Systems",
         "dates": "April 2005 - January 2011 • 6 yrs",
         "duties": [
@@ -45,10 +72,10 @@
         "company": "IMS Health",
         "dates": "February 2002 - April 2005 • 3 yrs",
         "duties": [
-          "Serve as an IT and Production Team Leader while the organization was restructuring.",
-          "Ensuring strategic IT and production needs of the organization were met during this time.",
-          "Serve as the escalation point for complex problems and ensure that high quality and effective solutions are delivered on time.",
-          "Lead, train and mentor 5 IT and production staff",
+          "Served as an IT and Production Team Leader while the organization was restructuring.",
+          "Ensured strategic IT and production needs of the organization were met during this time.",
+          "Served as the escalation point for complex problems and ensured that high quality and effective solutions are delivered on time.",
+          "Lead, trained and mentored 5 IT and production staff",
           "Extended systems support to cover India, Japan and Korea.",
           "Successfully managed the development of our first multi-lingual product which allowed the organization to deliver the product from conception within 3 months.  This helped the organization to double their revenue from 3 to 6 millions dollars a year.",
           "Successfully project managed the installation and configuration of VPN access for all employees."

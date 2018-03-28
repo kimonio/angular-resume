@@ -18,6 +18,7 @@ export interface IHome {
 export interface IExperience {
   title: String;
   company: String;
+  url?: String;
   dates: String;
   duties: String[];
 }
