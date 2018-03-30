@@ -105,7 +105,7 @@ export class SettingsService {
 
     function niceScroll() {
       if ($(window).width() < 767) {
-        $('#boxscroll').getNiceScroll().hide();
+        $('').getNiceScroll().hide();
       } else {
 
         const boxScroll = $('#boxscroll');

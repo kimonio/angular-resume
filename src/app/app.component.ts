@@ -3,6 +3,7 @@ import {SettingsService} from './settings/settings.service';
 
 // Third party.
 import * as moment from 'moment';
+declare const $;
 
 @Component({
   selector: 'app-root',
@@ -23,4 +24,5 @@ export class AppComponent implements OnInit {
   getCurrentYear() {
     return moment().format("YYYY");
   }
+
 }

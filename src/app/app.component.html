@@ -27,11 +27,11 @@
                 <a class="nav-link" routerLink="home">Home</a>
               </li>
               <li class="nav-item dropdown submenu" [routerLinkActive]="['active']">
-                <a class="nav-link dropdown-toggle" routerLink="resume" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle" routerLink="resume" id="dropdownMenuLink" role="button"
                    data-toggle="dropdown disabled" aria-haspopup="true" aria-expanded="false">
                   Resume
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <li><a class="dropdown-item" [routerLink]="['resume', {section: 'achievements'}]">Achievements</a></li>
                   <li><a class="dropdown-item" [routerLink]="['resume', {section: 'experience'}]">Work Experience</a></li>
                   <li><a class="dropdown-item" [routerLink]="['resume', {section: 'education'}]">Education</a></li>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Router, NavigationEnd, ActivatedRoute} from '@angular/router';
 
 // Providers.
@@ -6,6 +6,8 @@ import {SettingsService} from '../settings/settings.service';
 
 // Interface.
 import {IContent, IResume} from '../settings/settings.interface';
+
+declare const $;
 
 @Component({
   selector: 'app-resume',
@@ -26,8 +28,10 @@ export class ResumeComponent implements OnInit {
     this.settingsService.initScript();
     this.route.params.subscribe(params => {
       const section = params['section'];
+      console.log(section);
       if (section) {
-        console.log(section);
+        $('#boxscroll').getNiceScroll().resize();
+        setTimeout(() => $('#boxscroll').getNiceScroll().doScrollPos(0, $(`#${section}`).position().top), 100);
       }
     });
   }
