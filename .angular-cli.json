@@ -25,6 +25,8 @@
         "assets/js/jquery-3.2.1.min.js",
         "assets/js/popper.js",
         "assets/js/bootstrap.min.js",
+        "assets/vendors/isotope/imagesloaded.pkgd.min.js",
+        "assets/vendors/isotope/isotope.pkgd.min.js",
         "assets/vendors/counterup/jquery.waypoints.min.js",
         "assets/vendors/counterup/jquery.counterup.min.js",
         "assets/vendors/counterup/apear.js",

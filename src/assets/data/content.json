@@ -14,28 +14,28 @@
   },
   "resume": {
     "achievements": [
-      "• Conceived, designed and developed an innovative approach to traditional loyalty systems for retail businesses through a combination of white label gamified mobile app and full analytics platform. <br><a href=\"https://funrewards.com\"> http://funrewards.com</a>",
+      "• Conceived, designed and developed an innovative approach to traditional loyalty systems for <a href=\"https://itunes.apple.com/us/developer/app-design-llc/id1152856299?mt=8\">retail businesses</a> through a combination of white label gamified mobile app and merchant portal for configuration, promotion and analytics. <br><a href=\"https://funrewards.com\"> http://funrewards.com</a>",
       "• Conceived, designed and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions.",
-      "• Created a mobile app that was featured in New York Times and generated 3.1 million downloads. <a href=\"https://www.dropbox.com/s/nf1kuvkjdpbwknq/The_New_York_Times%282012-10-25%29_page38.pdf?dl=0\">Link to Article.</a>",
+      "• Created a mobile app that was featured in New York Times and generated 3.1 million downloads. <a href=\"https://goo.gl/Bktz12\">Link to Article.</a>",
       "• Passed CCIE Routing and Switching (#16621) lab exam July 2006.",
       "• Presented CCIE Routing and Switching workshop at the Cisco Live 2007 Networking Conference and received outstanding customer reviews.",
-      "• Published \"Journey to becoming the CCIE\" on Cisco Learning Network website. <a href=\"https://learningnetwork.cisco.com/docs/DOC-6033\">Link to Article</a>"
+      "• Published \"Journey to becoming the CCIE\" on Cisco Learning Network website. <a href=\"https://goo.gl/Q11vAY\">Link to Article</a>"
     ],
     "experiences": [
       {
-        "title": "Founder, Software Engineer",
+        "title": "Cofounder and Full Stack Software Engineer",
         "company": "Fun Rewards",
         "url": "http://funrewards.com",
         "dates": "December 2015 - Present • 2.5 yrs",
         "duties": [
-          "Conceived and developed an innovative approach to traditional loyalty systems for retail businesses through a combination of white labeled gamified mobile app and full analytics platform.",
-          "Designed and developed the mobile application in Javascript using Ionic & Angulargit add frameworks.",
+          "Conceived and developed an innovative approach to traditional loyalty systems for retail businesses through a combination of white labeled gamified mobile app and merchant portal for configuration, promotion and analytics.",
+          "Designed and developed the mobile application in Javascript using Ionic 3 & Angular frameworks.",
           "Designed and developed the CMS and analytics platform in Javascript using Firebase, NodeJS and MongoDB on the backend.",
           "Pivoted and changed the product multiple times based on customer feedback as well as feedback from business owners interacting with the software solution."
         ]
       },
       {
-        "title": "Founder, Software Engineer",
+        "title": "Cofounder and Mobile Developer",
         "company": "Objectified Apps",
         "dates": "February 2011 - November 2015 • 5 yrs",
         "duties": [

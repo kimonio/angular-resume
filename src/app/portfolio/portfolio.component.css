@@ -1,0 +1,12 @@
+
+.p_home{
+  height: calc(100vh - 250px);
+}
+
+h5 {
+  color: black;
+}
+
+.blog_post {
+  padding-bottom: 25px;
+}

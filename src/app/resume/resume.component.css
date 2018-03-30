@@ -1,4 +1,9 @@
 
+
+.p_home{
+  height: calc(100vh - 250px);
+}
+
 .achievements_timeline li {
   margin-bottom: 10px;
   background: #fafafa;

@@ -22,8 +22,8 @@ export class SettingsService {
   }
 
   getContent(): Observable<IContent> {
-      return this.http.get<IContent>(this.contentURL)
-        .do((data: IContent) => console.log(JSON.stringify(data)));
+      return this.http.get<IContent>(this.contentURL);
+        // .do((data: IContent) => console.log(JSON.stringify(data)));
   }
 
   initScript() {
@@ -225,6 +225,7 @@ export class SettingsService {
 
     // Simple LightBox js
     $('.light_popup').simpleLightbox();
+    $('.lightBoxVideoLink').simpleLightbox();
 
     /*----------------------------------------------------*/
     /*  Google map js
