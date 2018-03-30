@@ -1,3 +1,88 @@
-<p>
-  contact works!
-</p>
+<!--Start personal_porfolio-->
+<div class="main-container">
+  <section class="personal_porfolio wrapper">
+    <div class="container custom_container align-self-center fadeInOnLoad">
+      <div  class="main_box animation_bottom">
+        <div  class="p_home" id="boxscroll">
+          <div class="por_details section_pad">
+            <div class="row m0">
+              <div class="left_site p0">
+                <div id="mapBox1" class="mapBox1 row m0"
+                     data-lat="32.9640561"
+                     data-lon="-96.7261567"
+                     data-zoom="11"
+                     data-marker=""
+                     data-info=""
+                     data-mlat=""
+                     data-mlon="">
+                </div>
+              </div>
+              <div class="right_site content_area">
+                <div class="personal_content align-self-center">
+                  <div class="contact_area">
+                    <div class="main_title">
+                      <h2>Get In Touch</h2>
+                    </div>
+                    <ul class="contact_info list_style">
+                      <li><i class="fa fa-map-marker"></i>Richardson, Texas</li>
+                      <li><i class="fa fa-envelope"></i><a href="mailto:antonio.cunanan@gmail.com">antonio.cunanan@gmail.com</a></li>
+                    </ul>
+                    <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                      <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                      </div>
+                      <div class="form-group col-md-12">
+                        <button type="submit" value="submit" class="btn submit_btn download_btn">submit now</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!--================Contact Success and Error message Area =================-->
+<div id="success" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fa fa-close"></i>
+        </button>
+        <h2>Thank you</h2>
+        <p>Your message is successfully sent...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modals error -->
+
+<div id="error" class="modal modal-message fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fa fa-close"></i>
+        </button>
+        <h2>Sorry !</h2>
+        <p> Something went wrong </p>
+      </div>
+    </div>
+  </div>
+</div>

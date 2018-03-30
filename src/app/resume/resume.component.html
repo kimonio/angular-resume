@@ -62,9 +62,18 @@
             </div>
 
             <!-- Skills -->
-            <div class="education_info sec_pad_l sec_pad_r">
+            <div class="col-md-12 education_info">
               <h3 class="ed_title">Certifications & Skills</h3>
               <div class="row">
+                <div class="col-lg-3 col-md-4 achievements_info" *ngFor="let skill of resumeContent.skills">
+                  <ul class="achievements_timeline list_style">
+                    <li>
+                      <div class="skills_content">
+                        {{ skill }}
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

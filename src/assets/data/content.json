@@ -13,6 +13,20 @@
     "profile_img_url": "../assets/image/avatar.png"
   },
   "resume": {
+    "skills": [
+      "CCIE R&S",
+      "Javascript",
+      "NodeJS",
+      "Ionic",
+      "Angular",
+      "MongoDB",
+      "Java",
+      "Firebase",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "Routing Protocols"
+    ],
     "achievements": [
       "• Conceived, designed and developed an innovative approach to traditional loyalty systems for <a href=\"https://itunes.apple.com/us/developer/app-design-llc/id1152856299?mt=8\">retail businesses</a> through a combination of white label gamified mobile app and merchant portal for configuration, promotion and analytics. <br><a href=\"https://funrewards.com\"> http://funrewards.com</a>",
       "• Conceived, designed and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions.",

@@ -1,0 +1,19 @@
+
+.animation_bottom.edgtf-appeared {
+  padding-bottom: 0;
+}
+
+.por_details {
+  padding: 0;
+}
+
+@media (max-width: 1550px) {
+  .p_home {
+    height: calc(100vh - 180px);
+  }
+}
+
+.right_site {
+  width: calc(50% + 170px);
+  float: right;
+}
