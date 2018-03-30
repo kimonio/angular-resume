@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 import {Router, NavigationEnd, ActivatedRoute} from '@angular/router';
 
 // Providers.
@@ -19,6 +19,11 @@ export class ResumeComponent implements OnInit {
   content: IContent;
   resumeContent: IResume;
 
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.settingsService.initScript();
+  }
+
   constructor(private settingsService: SettingsService,
               private route: ActivatedRoute) {
     this.settingsService.getContent().subscribe((content: IContent) => this.resumeContent = content.resume);
@@ -35,5 +40,7 @@ export class ResumeComponent implements OnInit {
       }
     });
   }
+
+
 
 }
