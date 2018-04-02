@@ -2,3 +2,16 @@
 .p_home {
   height: calc(100vh - 370px);
 }
+
+.profile_img_two .personal {
+  box-shadow: 0px 2px 27px 0px white;
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 1550px) {
+  .profile_img_two .personal {
+    height: 350px;
+    width: 350px;
+  }
+}
