@@ -11,3 +11,18 @@
   width: calc(50% + 170px);
   float: right;
 }
+
+@media (max-width: 1550px) {
+  .mapBox1 {
+    min-height: calc(100vh - 60px);
+  }
+}
+
+.mapBox1 {
+  min-height: calc(100vh - 230px);
+}
+
+.p_home {
+  height: 75%;
+}
+

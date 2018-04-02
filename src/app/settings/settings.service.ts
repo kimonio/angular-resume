@@ -56,6 +56,7 @@ export class SettingsService {
           switchs = true;
         }
       });
+
       // Normal
       if ($('#actionColors a').length > 0) {
         $('#actionColors a').on('click', function (e) {
