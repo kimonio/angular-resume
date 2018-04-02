@@ -15,3 +15,13 @@
     width: 350px;
   }
 }
+
+@media (min-width: 1550px) {
+  .p_home .profile_img {
+    height: 100%;
+  }
+}
+
+.profile_img_two .personal {
+  background-color: white;
+}
