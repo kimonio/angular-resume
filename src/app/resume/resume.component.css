@@ -15,7 +15,9 @@
 }
 
 .large-bullet {
-  size: 30px;
+  font-size: 16px;
+  color: #018bcb;
+  font-weight: bold;
 }
 
 .experience_year {

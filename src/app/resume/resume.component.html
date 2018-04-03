@@ -19,7 +19,7 @@
                   <ul class="achievements_timeline list_style">
                     <li *ngFor="let achievement of resumeContent?.achievements">
                       <div class="timeline_content">
-                        <p [innerHTML]="achievement"></p>
+                        <span class="large-bullet">◦</span> <span [innerHTML]="achievement"></span>
                       </div>
                     </li>
                   </ul>
@@ -35,7 +35,7 @@
                         <h3>{{ experience.title }}</h3>
                         <h4>{{ experience.company }}</h4>
                         <div class="experience_year">{{ experience.dates }}</div>
-                        <p class="bullet" *ngFor="let duty of experience.duties">• {{ duty }}</p>
+                        <p class="bullet" *ngFor="let duty of experience.duties"><span class="large-bullet">◦</span> {{ duty }}</p>
                       </div>
                     </li>
                   </ul>
@@ -51,8 +51,8 @@
                         <h3>Bachelor in Engineering, Computer Systems </h3>
                         <h4>University of Technology, Sydney</h4>
                         <div class="experience_year">March 1998 - January 2003 • 5 yrs</div>
-                        <p class="bullet">• Graduated with First Class Honors</p>
-                        <p class="bullet">• Dean's List Member 2000, 2001, 2002</p>
+                        <p class="bullet"><span class="large-bullet">◦</span> Graduated with First Class Honors</p>
+                        <p class="bullet"><span class="large-bullet">◦</span> Dean's List Member 2000, 2001, 2002</p>
                       </div>
                     </li>
                   </ul>
