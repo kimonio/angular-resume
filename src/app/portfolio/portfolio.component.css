@@ -6,3 +6,9 @@ h5 {
 .blog_post {
   padding-bottom: 25px;
 }
+
+.large-bullet {
+  font-size: 16px;
+  color: #018bcb;
+  font-weight: bold;
+}

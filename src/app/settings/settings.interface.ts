@@ -10,6 +10,7 @@ export interface IHome {
   twitter: String;
   github: String;
   instagram: String;
+  linkedin: String;
   cv_url: String;
   profile_img_url: String;
 }

@@ -1,5 +1,5 @@
 
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -8,9 +8,21 @@
   background-repeat: no-repeat;
 }
 
-.body-particles{
+.body-particles {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
+}
+
+.icon_white li a {
+  color: #fff;
+}
+
+.icon_white li a:hover {
+  color: #000;
+}
+
+.social-icon {
+  border-left: 1px solid white;
 }
