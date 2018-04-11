@@ -9,18 +9,18 @@ import {ContactComponent} from './contact/contact.component';
 
 const indexRoute: Route = {
   path: '',
-  redirectTo: '',
+  redirectTo: 'home',
   pathMatch: 'full'
 };
 
 const fallbackRoute: Route = {
   path: '**',
-  redirectTo: ''
+  redirectTo: 'home'
 };
 
 export const routerConfig: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
   },
   {
