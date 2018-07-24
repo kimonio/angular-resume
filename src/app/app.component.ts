@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {SettingsService} from './settings/settings.service';
+import {enableProdMode} from '@angular/core';
+
+enableProdMode();
 
 // Third party.
 import * as moment from 'moment';
