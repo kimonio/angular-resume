@@ -14,14 +14,29 @@
     height: 350px;
     width: 350px;
   }
+
+  .personal_content h3 {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 @media (min-width: 1550px) {
   .p_home .profile_img {
     height: 100%;
   }
+
+  .personal_content h3 {
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 .profile_img_two .personal {
   background-color: white;
+}
+
+.certification-badge {
+  width: 120px;
+  margin-right: 10px;
 }

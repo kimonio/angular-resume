@@ -1,4 +1,8 @@
 
+export interface ICertifications {
+  badge_img_url: String;
+}
+
 // Home Component.
 export interface IHome {
   name: String;
