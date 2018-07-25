@@ -6,6 +6,7 @@ import {ResumeComponent} from './resume/resume.component';
 import {PortfolioComponent} from './portfolio/portfolio.component';
 import {BlogComponent} from './blog/blog.component';
 import {ContactComponent} from './contact/contact.component';
+import {CodeComponent} from './code/code.component';
 
 const indexRoute: Route = {
   path: '',
@@ -30,6 +31,10 @@ export const routerConfig: Routes = [
   {
     path: 'resume/:section',
     component: ResumeComponent
+  },
+  {
+    path: 'code',
+    component: CodeComponent
   },
   {
     path: 'portfolio',

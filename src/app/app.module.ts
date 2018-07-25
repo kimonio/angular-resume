@@ -16,6 +16,7 @@ import {ResumeComponent} from './resume/resume.component';
 import {PortfolioComponent} from './portfolio/portfolio.component';
 import {BlogComponent} from './blog/blog.component';
 import {ContactComponent} from './contact/contact.component';
+import { CodeComponent } from './code/code.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {ContactComponent} from './contact/contact.component';
     ResumeComponent,
     PortfolioComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    CodeComponent
   ],
   imports: [
     BrowserModule,
