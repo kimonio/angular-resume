@@ -17,6 +17,9 @@
     "skills": [
       "CCIE R&S",
       "Javascript",
+      "Typescript",
+      "Routing",
+      "Collaboration",
       "NodeJS",
       "Ionic",
       "Angular",
@@ -30,7 +33,6 @@
     ],
     "achievements": [
       "Conceived, designed and developed an innovative approach to traditional loyalty systems for <a href=\"https://itunes.apple.com/us/developer/app-design-llc/id1152856299?mt=8\">retail businesses</a> through a combination of white label gamified mobile app and merchant portal for configuration, promotion and analytics. <br><a href=\"https://funrewards.com\"> http://funrewards.com</a>",
-      "Conceived, designed and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions.",
       "Created a mobile app that was featured in New York Times and generated 3.1 million downloads. <a href=\"https://goo.gl/Bktz12\">Link to Article.</a>",
       "Passed CCIE Routing and Switching (#16621) lab exam July 2006.",
       "Presented CCIE Routing and Switching workshop at the Cisco Live 2007 Networking Conference and received outstanding customer reviews.",
@@ -57,8 +59,8 @@
           "Conceived and developed mobile applications for both iOS and Android devices in Objective-C and Java.",
           "Conceived and developed \"Ad mediation server\" in PHP and MySQL which controlled the delivery of ads across all our apps to help maximize revenue.",
           "Developed a push notification script in PHP that allowed millions of push notifications to be sent across all our apps in an efficient and cost effective way.",
-          "Created a mobile app that was featured in New York Times and generated 3.1 million downloads.",
-          "Conceived and developed hundreds of mobile apps which have generated over 21 million downloads and billions of ad impressions."
+          "Conceived, designed and developed mobile apps which have generated over 21 million downloads.",
+          "Created a mobile app that was featured in New York Times and generated 3.1 million downloads."
         ]
       },
       {
@@ -66,7 +68,7 @@
         "company": "Cisco Systems",
         "dates": "April 2005 - January 2011 • 6 yrs",
         "duties": [
-          "Responsible for resolving technical issues for customers globally.",
+          "Responsible for resolving technical issues for customers globally in Collaboration and Routing technologies.",
           "Point of escalation for technical issues for engineers locally as well as worldwide.",
           "Provide training and mentoring to fellow engineers on varied number of technologies.",
           "Resolved over 2000 customer issues with an average feedback score rating of 4.69 / 5."
